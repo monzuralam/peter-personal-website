@@ -66,7 +66,7 @@ section{
     background-image: url('images/header-bg.png');
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .hero-area h1{
@@ -93,7 +93,7 @@ section{
 /* biography area  */
 .biography{
     background-image: url('images/biography-bg.png');
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -120,7 +120,7 @@ section{
 .latest-work{
     background-image: url('images/latest-work-bg.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .latest-work h2{
@@ -130,4 +130,59 @@ section{
 
 .latest-work img{
     width: 100%;
+}
+
+/* testimonial */
+.testimonial{
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+}
+.testimonial h2{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.client-testimonial{
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.client-testimonial p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.client-testimonial span{
+    padding-bottom: 25px;
+    display: block;
+}
+
+.quote{
+    width: 75%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.contact{
+    background-color: #EC4B75;
+    margin: 50px auto 100px;
+    color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.contact .mail{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 0;
 }
