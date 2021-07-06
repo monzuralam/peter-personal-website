@@ -1,6 +1,11 @@
 /* ------------------------------------------------
 # Common Style
 * ------------------------------------------------*/
+body{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+}
+
 h1{
     font-size: 40px;
     font-weight: 500;
@@ -11,19 +16,30 @@ h2{
     font-weight: 700;
 }
 
+h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
 p{
     font-size: 16px;
-    font-family: Roboto, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 a{
     color: #fff;
-    font-family: Roboto, sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 14px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     background-color: #ED4B73;
     text-decoration:none;
     border-radius: 5px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
 }
 
 .col-2{
