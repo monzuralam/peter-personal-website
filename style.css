@@ -47,12 +47,15 @@ a{
 }
 
 .col-3{
-    width: 33.3%;
+    width: 30.3%;
+    padding:0px 1%;
     float: left;
 }
 
 section{
-    margin:100px 0;
+    position:relative;
+    overflow: hidden;
+    padding:100px 0;
 }
 
 /* ------------------------------------------------
@@ -90,7 +93,7 @@ section{
 /* biography area  */
 .biography{
     background-image: url('images/biography-bg.png');
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 
@@ -111,4 +114,20 @@ section{
 
 .biography-info p{
     margin-bottom: 25px;
+}
+
+/* latest work */
+.latest-work{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.latest-work h2{
+    text-align: center;
+    font-weight: 500;
+}
+
+.latest-work img{
+    width: 100%;
 }
