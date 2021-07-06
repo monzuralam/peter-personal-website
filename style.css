@@ -29,15 +29,14 @@ p{
 a{
     color: #fff;
     font-family: Poppins, sans-serif;
-    font-weight: 14px;
-    padding: 10px 25px;
+    padding: 10px 35px;
     background-color: #ED4B73;
     text-decoration:none;
     border-radius: 5px;
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1200px;
     width: 100%;
     margin: 0px auto;
 }
